@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.cont-1{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 20%;
+    padding: 1px;
+    padding-bottom: 3px;
+}
+
+.cont-2{
+    display: flex;
+    align-items: center;
+    background-color:#00669F;
+    width: 100%;
+    height: 90%;
+}
+
+h1{
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 80;
+    text-align: left;
+    color: white;
+}
+
+.text{
+    position: relative;
+    left: 10px;
+    font-family: Roboto;
+}
+/*parte de navegacion*/
+.cont-3{
+    background:#001D2D;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.cont-nav{
+    display: flex;
+    color: white;
+    padding: 0 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}  
+/*fin de parte de navegacion*/
+
+/*parte del formulario*/
+.contenedor{
+    background: white;
+    padding: 10px 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-form{
+    background: #00669F;
+    padding: 20px;
+    color: #FBFFFD;
+    border-radius: 10%;
+}
+.part-sup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part-center{
+    display: flex;
+    gap: 20px;
+}
+input[type="text"] {
+    width: 240px; 
+    height: 40px; 
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px; /
+}
+textarea{
+    resize: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc
+}
+.letra{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 1;
+    Line-height: 40px;
+}
+.letra-2{
+    font-family: Inter;
+    font-size: 10px;
+}
+.selec{
+    font-size: 10px;
+    color: black; 
+}
+.part-fin{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.cuadro:hover {
+    background-color: #001D2D;
+    color: white;
+}
+.cuadro{
+    background: #1CD1B0;
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/*final de la parte de formulario*/
+.pie{
+    width: 100%;
+    height: 51px;
+    position: relative;
+    background-color: #00669F;
+    color:#FFF9F9;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final{
+    margin-left: 60px;
+}

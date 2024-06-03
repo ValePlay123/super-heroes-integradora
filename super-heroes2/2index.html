@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../super-heroes2/css/2style.css">
+    <title>Super-Heroes</title>
+</head>
+
+<body>
+    <div class="cont-1">
+        <p class="text">Descuentos 20% en todos los productos!</p>
+    </div>
+    <div class="cont-2">
+        <h1 class="text">Card Super Heroes</h1>
+    </div>
+    <div class="cont-3">
+        <div class="cont-nav">
+            <nav class="nav">
+                <p>Contacto</p>
+                <p>Registrarme</p>
+                <p>Ingresar</p>
+            </nav>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="cont-form">
+            <div class="part-sup">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <div class="part-center">
+                <div class="part-izq">
+                    <form action="/login" method="POST">
+                        <div>
+                            <p class="letra">*Nombre</p>
+                            <input class="caja" type="text" name="usuario">
+                        </div>
+                        <div>
+                            <p class="letra">Fecha</p>
+                            <input type="date" name="fecha">
+                        </div>
+                        <textarea name="descripcion" rows="11" cols="30" placeholder="Descripción"></textarea>
+                    </form>
+                </div>
+                <div class="part-der">
+                    <div>
+                        <p class="letra">*Especie</p>
+                        <input type="text" name="especie" placeholder="Especie">
+                    </div>
+                    <div>
+                        <p class="letra">Agregar Foto</p>
+                        <input class="selec" type="file" name="foto" accept=".jpg">
+                    </div>
+                    <div>
+                        <div>
+                            <p class="letra">Poderes</p>
+                            <label class="letra-2"><input type="checkbox" name="poderes[]" value="Volar"> Volar</label><br>
+                            <label class="letra-2"><input type="checkbox" name="poderes[]" value="Superinteligencia"> Superinteligencia</label><br>
+                            <label class="letra-2"><input type="checkbox" name="poderes[]" value="Vista de rayo láser"> Vista derayoláser</label><br>
+                            <label class="letra-2"><input type="checkbox" name="poderes[]" value="Billietera gorda"> Billietera gorda</label><br>
+                        </div>
+                        <div>
+                            <p class="letra">Tipo de personaje</p>
+                            <label class="letra-2"><input type="radio" name="tipo" value="Héreo / Heroina">Héreo / Heroina</label><br>
+                            <label class="letra-2"><input type="radio" name="tipo" value="Villano / Villana">Villano / Villana</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part-fin">
+                <div class="cuadro">
+                    <p>Añadir</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pie">
+        <span class="final">Todos los derechos reservados a FRONT END</span>
+    </div>
+</body>
